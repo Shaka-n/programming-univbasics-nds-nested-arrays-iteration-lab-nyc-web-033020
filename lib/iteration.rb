@@ -29,6 +29,7 @@ def find_greater_pair(src)
       new_array[counter]= src[counter][1]
       counter+=1
     end
+  end
     return new_array
 end
 
