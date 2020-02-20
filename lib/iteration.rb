@@ -24,8 +24,12 @@ def find_greater_pair(src)
   while src[counter] do 
     if src[counter][0] > src[counter][1]
       new_array[counter]= src[counter][0]
+      counter+=1
     else
-      new_array[counter]= src[counter][]
+      new_array[counter]= src[counter][1]
+      counter+=1
+    end
+    return new_array
 end
 
 def total_even_pairs(src)
